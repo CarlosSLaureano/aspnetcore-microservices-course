@@ -12,10 +12,10 @@ namespace GeekShopping.ProductAPI.Repository
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly MySQLContext _context;
+        private readonly SqlServerContext _context;
         private IMapper _mapper;
 
-        public ProductRepository(MySQLContext context, IMapper mapper)
+        public ProductRepository(SqlServerContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -31,7 +31,7 @@ namespace GeekShopping.ProductAPI.Repository
         {
             Product product =
                 await _context.Products.Where(p => p.Id == id)
-                .FirstOrDefaultAsync();
+                .FirstOrDefaultAsync() ?? new Product();
             return _mapper.Map<ProductVO>(product);
         }
 
@@ -56,8 +56,8 @@ namespace GeekShopping.ProductAPI.Repository
             {
                 Product product =
                 await _context.Products.Where(p => p.Id == id)
-                    .FirstOrDefaultAsync();
-                if (product == null) return false;
+                    .FirstOrDefaultAsync() ?? new Product();
+                if (product.Id <= 0) return false;
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
                 return true;

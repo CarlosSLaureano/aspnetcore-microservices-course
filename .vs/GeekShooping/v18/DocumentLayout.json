@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Dev\\GeekShopping\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5F676414-A1E7-4180-96F6-C7479B1100A8}|GeekShopping.Web\\GeekShopping.Web.csproj|c:\\dev\\geekshopping\\geekshopping.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5F676414-A1E7-4180-96F6-C7479B1100A8}|GeekShopping.Web\\GeekShopping.Web.csproj|solutionrelative:geekshopping.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F676414-A1E7-4180-96F6-C7479B1100A8}|GeekShopping.Web\\GeekShopping.Web.csproj|c:\\dev\\geekshopping\\geekshopping.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5F676414-A1E7-4180-96F6-C7479B1100A8}|GeekShopping.Web\\GeekShopping.Web.csproj|solutionrelative:geekshopping.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|c:\\dev\\geekshopping\\geekshopping.productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|solutionrelative:geekshopping.productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "GeekShopping.Web\\appsettings.json",
-              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.Web\\appsettings.json",
-              "RelativeToolTip": "GeekShopping.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-21T21:58:39.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.Web\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "GeekShopping.Web\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.Web\\Properties\\launchSettings.json",
-              "RelativeToolTip": "GeekShopping.Web\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-21T21:58:35.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "GeekShopping.ProductAPI\\appsettings.json",
-              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\appsettings.json",
-              "RelativeToolTip": "GeekShopping.ProductAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-21T21:58:15.721Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

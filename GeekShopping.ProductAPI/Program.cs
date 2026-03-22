@@ -10,12 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-var connection = builder.Configuration["MySqlConnection:MySqlConnectionString"];
+var connection = builder.Configuration["SqlServerConnection:SqlServerConnectionString"];
 
-builder.Services.AddDbContext<MySQLContext>(options => options.UseMySql(
-    connection,
-    new MySqlServerVersion(new Version(8, 0, 29)))
-);
+builder.Services.AddDbContext<SqlServerContext>(options =>
+    options.UseSqlServer(connection));
 
 
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
