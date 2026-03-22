@@ -1,0 +1,11 @@
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.csproj.AssemblyReference.cache
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.AssemblyInfoInputs.cache
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.AssemblyInfo.cs
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.csproj.CoreCompileInputs.cache
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.RazorAssemblyInfo.cache
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.RazorAssemblyInfo.cs
+C:\Dev\GeekShopping\GeekShopping.Web\obj\Debug\net10.0\GeekShopping.Web.sourcelink.json

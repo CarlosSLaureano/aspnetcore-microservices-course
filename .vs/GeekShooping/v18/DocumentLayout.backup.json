@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Dev\\GeekShopping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|c:\\dev\\geekshopping\\geekshopping.productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|solutionrelative:geekshopping.productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|c:\\dev\\geekshopping\\geekshopping.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|solutionrelative:geekshopping.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|c:\\dev\\geekshopping\\geekshopping.productapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|solutionrelative:geekshopping.productapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|c:\\dev\\geekshopping\\geekshopping.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|solutionrelative:geekshopping.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|c:\\dev\\geekshopping\\geekshopping.productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85D4039E-9A6D-4472-91FD-60E05EEE3587}|GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj|solutionrelative:geekshopping.productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F676414-A1E7-4180-96F6-C7479B1100A8}|GeekShopping.Web\\GeekShopping.Web.csproj|c:\\dev\\geekshopping\\geekshopping.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F676414-A1E7-4180-96F6-C7479B1100A8}|GeekShopping.Web\\GeekShopping.Web.csproj|solutionrelative:geekshopping.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|c:\\dev\\geekshopping\\geekshopping.identityserver\\mainmodule\\testusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|solutionrelative:geekshopping.identityserver\\mainmodule\\testusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|c:\\dev\\geekshopping\\geekshopping.identityserver\\model\\context\\sqlservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|solutionrelative:geekshopping.identityserver\\model\\context\\sqlservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|c:\\dev\\geekshopping\\geekshopping.identityserver\\geekshopping.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|solutionrelative:geekshopping.identityserver\\geekshopping.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|c:\\dev\\geekshopping\\geekshopping.identityserver\\model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523EEF4F-A21A-48A9-87DC-73DE41964FD7}|GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj|solutionrelative:geekshopping.identityserver\\model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "GeekShopping.ProductAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "GeekShopping.ProductAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\Program.cs",
+              "RelativeDocumentMoniker": "GeekShopping.IdentityServer\\Program.cs",
+              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\Program.cs",
+              "RelativeToolTip": "GeekShopping.IdentityServer\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T00:04:46.444Z",
+              "WhenOpened": "2026-03-22T04:31:34.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "GeekShopping.ProductAPI\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "GeekShopping.ProductAPI\\Repository\\ProductRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T00:00:31.783Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\appsettings.json",
+              "RelativeDocumentMoniker": "GeekShopping.IdentityServer\\appsettings.json",
+              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\appsettings.json",
+              "RelativeToolTip": "GeekShopping.IdentityServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T04:24:29.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\Program.cs",
-              "RelativeDocumentMoniker": "GeekShopping.ProductAPI\\Program.cs",
-              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.ProductAPI\\Program.cs",
-              "RelativeToolTip": "GeekShopping.ProductAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "GeekShopping.Web\\appsettings.json",
+              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.Web\\appsettings.json",
+              "RelativeToolTip": "GeekShopping.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T04:24:16.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestUsers.cs",
+              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\MainModule\\TestUsers.cs",
+              "RelativeDocumentMoniker": "GeekShopping.IdentityServer\\MainModule\\TestUsers.cs",
+              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\MainModule\\TestUsers.cs",
+              "RelativeToolTip": "GeekShopping.IdentityServer\\MainModule\\TestUsers.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T00:00:04.903Z",
+              "WhenOpened": "2026-03-22T03:44:38.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlServerContext.cs",
+              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\Model\\Context\\SqlServerContext.cs",
+              "RelativeDocumentMoniker": "GeekShopping.IdentityServer\\Model\\Context\\SqlServerContext.cs",
+              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\Model\\Context\\SqlServerContext.cs",
+              "RelativeToolTip": "GeekShopping.IdentityServer\\Model\\Context\\SqlServerContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:35:25.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeekShopping.IdentityServer.csproj",
+              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+              "RelativeDocumentMoniker": "GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+              "RelativeToolTip": "GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-22T03:32:18.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\Model\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "GeekShopping.IdentityServer\\Model\\ApplicationUser.cs",
+              "ToolTip": "C:\\Dev\\GeekShopping\\GeekShopping.IdentityServer\\Model\\ApplicationUser.cs",
+              "RelativeToolTip": "GeekShopping.IdentityServer\\Model\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:30:42.79Z",
               "EditorCaption": ""
             }
           ]
