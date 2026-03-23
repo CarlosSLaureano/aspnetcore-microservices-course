@@ -14,7 +14,9 @@ namespace GeekShopping.IdentityServer
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            var connection = builder.Configuration.GetConnectionString("SqlServerConnection:SqlServerConnectionString");
+            var connection = builder.Configuration
+                 .GetSection("SqlServerConnection")
+                 .GetValue<string>("SqlServerConnectionString");
 
             builder.Services.AddDbContext<SqlServerContext>(options =>
                      options.UseSqlServer(connection));
@@ -32,7 +34,7 @@ namespace GeekShopping.IdentityServer
                    options.EmitStaticAudienceClaim = true;
                }).AddInMemoryIdentityResources(
                    IdentityConfiguration.IdentityResources)
-            
+                 .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
                  .AddInMemoryClients(IdentityConfiguration.Clients)
                  .AddAspNetIdentity<ApplicationUser>()
                  .AddDeveloperSigningCredential();
@@ -46,15 +48,17 @@ namespace GeekShopping.IdentityServer
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
             app.UseRouting();
             app.UseIdentityServer();
             app.UseAuthorization();
 
-            app.MapStaticAssets();
+            app.UseStaticFiles();
+
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
-                .WithStaticAssets();
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }

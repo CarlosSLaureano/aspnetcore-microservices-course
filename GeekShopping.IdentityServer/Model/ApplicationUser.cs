@@ -4,8 +4,8 @@ namespace GeekShopping.IdentityServer.Model
 {
     public class ApplicationUser : IdentityUser
     {
-        private string FirstaName { get; set; }
-        private string LastaName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
     }
 }

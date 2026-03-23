@@ -157,10 +157,10 @@ C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\staticwebassets.bu
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\staticwebassets.development.json
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\swae.build.ex.cache
+C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\GeekShop.CAC5A1C3.Up2Date
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\GeekShopping.ProductAPI.dll
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\refint\GeekShopping.ProductAPI.dll
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\GeekShopping.ProductAPI.pdb
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\GeekShopping.ProductAPI.genruntimeconfig.cache
 C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\ref\GeekShopping.ProductAPI.dll
-C:\Dev\GeekShopping\GeekShopping.ProductAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

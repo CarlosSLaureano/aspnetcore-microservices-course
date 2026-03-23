@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
