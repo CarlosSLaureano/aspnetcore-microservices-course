@@ -1,4 +1,3 @@
-using AutoMapper;
 using GeekShopping.ProductAPI.Config;
 using GeekShopping.ProductAPI.Model.Context;
 using GeekShopping.ProductAPI.Repository;
@@ -16,9 +15,7 @@ builder.Services.AddDbContext<SqlServerContext>(options =>
     options.UseSqlServer(connection));
 
 
-IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
-builder.Services.AddSingleton(mapper);
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(cfg => MappingConfig.ConfigureMapper(cfg));
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 

@@ -1,9 +1,12 @@
+using Duende.IdentityServer.AspNetIdentity;
+using Duende.IdentityServer.Services;
 using GeekShopping.IdentityServer.Configuration;
+using GeekShopping.IdentityServer.initializer;
 using GeekShopping.IdentityServer.Model;
 using GeekShopping.IdentityServer.Model.Context;
+using GeekShopping.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace GeekShopping.IdentityServer
 {
@@ -13,7 +16,7 @@ namespace GeekShopping.IdentityServer
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Connection String
             var connection = builder.Configuration
                  .GetSection("SqlServerConnection")
                  .GetValue<string>("SqlServerConnectionString");
@@ -21,40 +24,51 @@ namespace GeekShopping.IdentityServer
             builder.Services.AddDbContext<SqlServerContext>(options =>
                      options.UseSqlServer(connection));
 
+            // Identity
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<SqlServerContext>()
                 .AddDefaultTokenProviders();
 
+            // IdentityServer
             builder.Services.AddIdentityServer(options =>
-               {
-                   options.Events.RaiseInformationEvents = true;
-                   options.Events.RaiseInformationEvents = true;
-                   options.Events.RaiseFailureEvents = true;
-                   options.Events.RaiseSuccessEvents = true;
-                   options.EmitStaticAudienceClaim = true;
-               }).AddInMemoryIdentityResources(
-                   IdentityConfiguration.IdentityResources)
-                 .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
-                 .AddInMemoryClients(IdentityConfiguration.Clients)
-                 .AddAspNetIdentity<ApplicationUser>()
-                 .AddDeveloperSigningCredential();
+            {
+                options.Events.RaiseInformationEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseSuccessEvents = true;
+                options.EmitStaticAudienceClaim = true;
+            })
+            .AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
+            .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
+            .AddInMemoryClients(IdentityConfiguration.Clients)
+            .AddAspNetIdentity<ApplicationUser>()
+            .AddDeveloperSigningCredential();
 
+            builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+            builder.Services.AddScoped<IProfileService, ProfileService>();
             builder.Services.AddControllersWithViews();
 
+            
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            using (var scope = app.Services.CreateScope())
+            {
+                var initializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+                initializer.Initialize();
+            }
+
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseRouting();
-            app.UseIdentityServer();
-            app.UseAuthorization();
 
-            app.UseStaticFiles();
+            app.UseRouting();
+
+            app.UseIdentityServer();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",

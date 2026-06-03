@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace GeekShopping.ProductAPI.Model.Context
 {
@@ -11,6 +11,10 @@ namespace GeekShopping.ProductAPI.Model.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Product>()
+                .Property(p => p.Price)
+                .HasColumnType("decimal(18,2)");
+
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 2,

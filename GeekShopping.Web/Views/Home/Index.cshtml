@@ -1,4 +1,4 @@
-﻿@model IEnumerable<GeekShopping.Web.Models.ProductModel>
+@model IEnumerable<GeekShopping.Web.Models.ProductViewModel>
 <form>
     <div class="container row">
         @foreach (var product in Model)
@@ -14,7 +14,7 @@
 
                             <div class="row">
                                 <div class="col pt-1">
-                                    <span style="font-size:23px;">@string.Format("{0:c}", product.Price)</span>
+                                    <span style="font-size:23px;">R$ @product.Price.ToString("N2", System.Globalization.CultureInfo.InvariantCulture)</span>
                                 </div>
                                 <div class="col">
                                     <a asp-action="Details" asp-route-id="@product.Id"

@@ -1,4 +1,4 @@
-﻿@model GeekShopping.Web.Models.ProductModel
+@model GeekShopping.Web.Models.ProductViewModel
 
 <form method="post">
     <input asp-for="Id" hidden/>
@@ -9,7 +9,7 @@
                     <h1 class="text-dark">@Model.Name</h1>
                 </div>
                 <div class="col-12 col-md-3 text-end">
-                    <h1 class="text-warning">@((Model.Price).ToString("c"))</h1>
+                    <h1 class="text-warning">R$ @Model.Price.ToString("N2", System.Globalization.CultureInfo.InvariantCulture)</h1>
                 </div>
             </div>
             <div class="card-body">

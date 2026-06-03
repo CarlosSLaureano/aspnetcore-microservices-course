@@ -1,5 +1,6 @@
 using GeekShopping.Web.Services;
 using GeekShopping.Web.Services.IServices;
+using GeekShopping.Web.Utils;
 using Microsoft.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,11 @@ builder.Services.AddHttpClient<IProductService, ProductService>(
 );
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    // Aceita vírgula e ponto como separador decimal (pt-BR e en-US)
+    options.ModelBinderProviders.Insert(0, new DecimalModelBinderProvider());
+});
 
 builder.Services.AddAuthentication(options => {
     options.DefaultScheme = "Cookies";

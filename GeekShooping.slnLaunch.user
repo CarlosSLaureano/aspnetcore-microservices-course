@@ -5,6 +5,14 @@
       {
         "Path": "GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "GeekShopping.Web\\GeekShopping.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+        "Action": "Start"
       }
     ]
   }
